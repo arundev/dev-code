@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_GameCore_Config_Debug"
+	InheritedPropertySheets="..\Engine\Engine\SD_Engine_Config_Debug.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(WZ_SRC_PATH)/gamecore&quot;;&quot;$(WZ_SRC_PATH)/gamecore/camera&quot;;&quot;$(WZ_SRC_PATH)/gamecore/config&quot;;&quot;$(WZ_SRC_PATH)/gamecore/event&quot;;&quot;$(WZ_SRC_PATH)/gamecore/input&quot;;&quot;$(WZ_SRC_PATH)/gamecore/mgr&quot;;&quot;$(WZ_SRC_PATH)/gamecore/misc&quot;;&quot;$(WZ_SRC_PATH)/gamecore/object&quot;;&quot;$(WZ_SRC_PATH)/gamecore/ui&quot;"
+	/>
+</VisualStudioPropertySheet>

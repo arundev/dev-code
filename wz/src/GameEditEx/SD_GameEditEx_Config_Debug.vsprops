@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_GameEditEx_Config_Debug"
+	InheritedPropertySheets="..\GameCore\SD_GameCore_Config_Debug.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(WZ_SRC_PATH)/gameeditex&quot;;&quot;$(WZ_SRC_PATH)/gameeditex/camera&quot;;&quot;$(WZ_SRC_PATH)/gameeditex/command&quot;;&quot;$(WZ_SRC_PATH)/gameeditex/edit&quot;;&quot;$(WZ_SRC_PATH)/gameeditex/event&quot;;&quot;$(WZ_SRC_PATH)/gameeditex/fsm&quot;"
+	/>
+</VisualStudioPropertySheet>

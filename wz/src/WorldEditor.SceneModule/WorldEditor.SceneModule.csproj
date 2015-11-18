@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E5FA8D31-3992-4D8E-B275-4755B4CCA02A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorldEditor.SceneModule</RootNamespace>
+    <AssemblyName>WorldEditor.SceneModule</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dialog\NewLayerDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\NewLayerDlg.Designer.cs">
+      <DependentUpon>NewLayerDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog\NewSceneDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\NewSceneDlg.Designer.cs">
+      <DependentUpon>NewSceneDlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module\SceneDocument.cs" />
+    <Compile Include="Module\SceneModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\BackgroundScroll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\BackgroundScroll.Designer.cs">
+      <DependentUpon>BackgroundScroll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\CloudDome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\CloudDome.Designer.cs">
+      <DependentUpon>CloudDome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\DofPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\DofPanel.Designer.cs">
+      <DependentUpon>DofPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\LightPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\LightPanel.Designer.cs">
+      <DependentUpon>LightPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\SettingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\SettingPanel.Designer.cs">
+      <DependentUpon>SettingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\SkyDomePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\SkyDomePanel.Designer.cs">
+      <DependentUpon>SkyDomePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\TerrainDeformPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\TerrainDeformPanel.Designer.cs">
+      <DependentUpon>TerrainDeformPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\TerrainMaterialPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\TerrainMaterialPanel.Designer.cs">
+      <DependentUpon>TerrainMaterialPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget\TerrainSurfacePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget\TerrainSurfacePanel.Designer.cs">
+      <DependentUpon>TerrainSurfacePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\EntityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\EntityForm.Designer.cs">
+      <DependentUpon>EntityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\OutputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\OutputForm.Designer.cs">
+      <DependentUpon>OutputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\PropertyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\PropertyForm.Designer.cs">
+      <DependentUpon>PropertyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\SceneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\SceneForm.Designer.cs">
+      <DependentUpon>SceneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\TerrainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\TerrainForm.Designer.cs">
+      <DependentUpon>TerrainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Window\WorldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Window\WorldForm.Designer.cs">
+      <DependentUpon>WorldForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\thirdparty\DockPanelSuite\WinFormsUI\WinFormsUI.csproj">
+      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorldEditor.Base\WorldEditor.Base.csproj">
+      <Project>{EEBB2BD1-295D-4860-B66B-D5B6FC551309}</Project>
+      <Name>WorldEditor.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorldEditor.Common\WorldEditor.Common.csproj">
+      <Project>{12FF30C7-2BC6-4654-AEF0-3A086C4A42C6}</Project>
+      <Name>WorldEditor.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WorldEditor.Framework\WorldEditor.Framework.vcproj">
+      <Project>{4D38AA87-1783-4AB6-ACB1-0632A19BD31C}</Project>
+      <Name>WorldEditor.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dialog\NewLayerDlg.resx">
+      <DependentUpon>NewLayerDlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget\DofPanel.resx">
+      <DependentUpon>DofPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget\LightPanel.resx">
+      <DependentUpon>LightPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget\SettingPanel.resx">
+      <DependentUpon>SettingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget\SkyDomePanel.resx">
+      <DependentUpon>SkyDomePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget\TerrainDeformPanel.resx">
+      <DependentUpon>TerrainDeformPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget\TerrainMaterialPanel.resx">
+      <DependentUpon>TerrainMaterialPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget\TerrainSurfacePanel.resx">
+      <DependentUpon>TerrainSurfacePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\OutputForm.resx">
+      <DependentUpon>OutputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\PropertyForm.resx">
+      <DependentUpon>PropertyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\SceneForm.resx">
+      <DependentUpon>SceneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Window\TerrainForm.resx">
+      <DependentUpon>TerrainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\TerrainBrush\TerrainAverageBrush.png" />
+    <Content Include="Resources\TerrainBrush\TerrainFlatBrush.png" />
+    <Content Include="Resources\TerrainBrush\TerrainNoiseBrush.png" />
+    <Content Include="Resources\TerrainBrush\TerrainPullBrush.png" />
+    <Content Include="Resources\TerrainBrush\TerrainSmoothBrush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_GB_Target_StaticLinkedExecutable"
+	>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalLibraryDirectories="$(EMERGENT_PATH)\sdk\Win32\Lib\VC90\$(EE_EFD_Configuration_Name)"
+		AdditionalDependencies="efd.lib"
+	/>
+</VisualStudioPropertySheet>

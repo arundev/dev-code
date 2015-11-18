@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_GB_Config_Debug"
+	InheritedPropertySheets=".\SD_Config.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="0"
+		AdditionalIncludeDirectories="$(EMERGENT_PATH)\SDK\Win32\include;$(EMERGENT_PATH)\Source\3rdParty\STLPort\Package;$(EMERGENT_PATH)\Source\3rdParty\TinyXML"
+		PreprocessorDefinitions="_DEBUG;NIDEBUG;EE_USE_PCH;EE_USE_MEMORY_MANAGEMENT;EE_EFD_CONFIG_DEBUG"
+		MinimalRebuild="true"
+		BasicRuntimeChecks="3"
+		RuntimeLibrary="3"
+		DebugInformationFormat="4"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		LinkIncremental="2"
+		GenerateDebugInformation="true"
+	/>
+	<UserMacro
+		Name="GB_Configuration_Name"
+		Value="Debug"
+	/>
+	<UserMacro
+		Name="EE_EFD_Configuration_Name"
+		Value="Debug"
+	/>
+	<UserMacro
+		Name="GB_DLL_Suffix"
+		Value="30VC90D"
+	/>
+	<UserMacro
+		Name="EE_EFD_DLL_Suffix"
+		Value="30VC90D"
+	/>
+	<UserMacro
+		Name="GB_Tool_Plugin_Extension"
+		Value="dld"
+	/>
+	<UserMacro
+		Name="GB_Shader_Library_Extension"
+		Value=".dl9"
+	/>
+	<UserMacro
+		Name="GB_Shader_Parser_Extension"
+		Value=".dp9"
+	/>
+	<UserMacro
+		Name="EMERGENT_PATH"
+		Value="E:\project_program_client\thirdparty\gamebryo"
+	/>
+</VisualStudioPropertySheet>

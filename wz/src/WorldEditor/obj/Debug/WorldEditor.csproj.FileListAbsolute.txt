@@ -1,0 +1,10 @@
+E:\project_program_client\src\WorldEditor\obj\Debug\ResolveAssemblyReference.cache
+E:\project_program_client\src\WorldEditor\obj\Debug\WorldEditor.csproj.GenerateResource.Cache
+E:\project_game\bin\WorldEditor.exe.config
+E:\project_game\bin\WorldEditor.exe
+E:\project_game\bin\WorldEditor.pdb
+E:\project_program_client\src\WorldEditor\obj\Debug\WorldEditor.Properties.Resources.resources
+E:\project_program_client\src\WorldEditor\obj\Debug\WorldEditor.exe
+E:\project_program_client\src\WorldEditor\obj\Debug\WorldEditor.pdb
+E:\project_program_client\src\WorldEditor\obj\Debug\WorldEditor.Window.FormMain.resources
+E:\project_game\bin\license.txt

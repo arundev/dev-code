@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_Engine_Config_Debug"
+	InheritedPropertySheets="..\..\SD_Config.vsprops;..\..\Base\SD_Base_Config_Debug.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(WZ_SRC_PATH)/engine/engine&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/engine&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/environment&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/entity&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/graphic&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/interface&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/rendersystem&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/terrainsystem&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/terrain&quot;;&quot;$(WZ_SRC_PATH)/engine/engine/utility&quot;"
+	/>
+</VisualStudioPropertySheet>

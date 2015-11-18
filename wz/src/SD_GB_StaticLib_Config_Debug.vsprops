@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_GB_StaticLib_Config_Debug"
+	InheritedPropertySheets=".\SD_GB_Config_Debug.vsprops;.\SD_GB_Language.vsprops;.\SD_GB_Precompiled_Headers.vsprops;.\SD_GB_Target_StaticLib.vsprops"
+	>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalLibraryDirectories="&quot;$(EMERGENT_PATH)\SDK\Win32\Lib\VC90\DebugDLL&quot;"
+	/>
+</VisualStudioPropertySheet>

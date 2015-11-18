@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_Config"
+	>
+	<UserMacro
+		Name="WZ_SRC_PATH"
+		Value="E:\project_program_client\src"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="WZ_THIRDPARTY_PATH"
+		Value="E:\project_program_client\thirdparty"
+	/>
+</VisualStudioPropertySheet>

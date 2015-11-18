@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_Base_Config_Debug"
+	InheritedPropertySheets="..\SD_Config.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(WZ_SRC_PATH)/base&quot;;&quot;$(WZ_SRC_PATH)/base/base&quot;;&quot;$(WZ_SRC_PATH)/base/diagnostics&quot;;&quot;$(WZ_SRC_PATH)/base/math&quot;;&quot;$(WZ_SRC_PATH)/base/multithread&quot;;&quot;$(WZ_SRC_PATH)/base/misc&quot;;&quot;$(WZ_SRC_PATH)/base/util&quot;"
+	/>
+</VisualStudioPropertySheet>

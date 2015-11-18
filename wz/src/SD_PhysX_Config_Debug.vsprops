@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="SD_PhysX_Config_Debug"
+	InheritedPropertySheets=".\SD_Config.vsprops"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="&quot;$(WZ_THIRDPARTY_PATH)/physx/sdk/foundation/include&quot;;&quot;$(WZ_THIRDPARTY_PATH)/physx/sdk/cooking/include&quot;;&quot;$(WZ_THIRDPARTY_PATH)/physx/sdk/physics/include&quot;;&quot;$(WZ_THIRDPARTY_PATH)/physx/sdk/physxloader/include&quot;;&quot;$(WZ_THIRDPARTY_PATH)/physx/sdk/nxcharacter/include&quot;"
+	/>
+</VisualStudioPropertySheet>
